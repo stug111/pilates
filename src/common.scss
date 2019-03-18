@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap-grid";
+@import "~bootstrap/scss/utilities/sizing";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/button-group";
+
+// Colors.
+$white: #fff;
+$gray: #181818;
+$red: #d82727;
+$blue: #33ccff;
+$black: #000;
+
+.aligncenter {
+	text-align: center;
+}

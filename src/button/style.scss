@@ -1,0 +1,33 @@
+.site-button {
+	background: $red;
+	padding: 5px 45px;
+	border-radius: 23px;
+	color: $white;
+	font-family: "PF DinDisplay Pro";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+	text-align: center;
+
+	@include media-breakpoint-down(md) {
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+
+	&:hover {
+		color: $white;
+		text-decoration: none;
+	}
+
+	&.black {
+		background-color: $gray;
+		color: $white;
+		font-family: "Helvetica Neue LT Std";
+		font-weight: 400;
+
+		&:hover {
+			color: $white;
+		}
+	}
+}
