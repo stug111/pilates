@@ -4,7 +4,6 @@ const { InnerBlocks, MediaUpload, MediaUploadCheck } = wp.editor;
 const { Button } = wp.components;
 
 const ALLOWED_MEDIA_TYPES = [ 'image' ];
-const TEMPLATE = [ [ 'core/paragraph' ], [ 'core/paragraph' ] ];
 
 registerBlockType( 'pilates/trainer', {
 	title: __( 'Тренер' ),
@@ -54,7 +53,7 @@ registerBlockType( 'pilates/trainer', {
 				<div className="trainers__image">
 					<img src={ url } alt={ alt } />
 				</div>
-				<InnerBlocks templateLock={ false } template={ TEMPLATE } />
+				<InnerBlocks templateLock={ false } />
 			</div>
 		);
 	},
