@@ -54,7 +54,7 @@ registerBlockType( 'pilates/trainer', {
 				<div className="trainers__image">
 					<img src={ url } alt={ alt } />
 				</div>
-				<InnerBlocks template={ TEMPLATE } />
+				<InnerBlocks templateLock={ false } template={ TEMPLATE } />
 			</div>
 		);
 	},
